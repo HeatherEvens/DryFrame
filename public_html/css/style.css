@@ -1,0 +1,934 @@
+body, html {
+    font-size: 80%;
+}
+/*
+This rule defines the positining and dimensions of the main layout div. It SHOULD NOT BE MODIFIED by hand.
+*/
+div.servicetecINDEX{
+    margin-right:auto;
+    margin-left:auto;
+    position:static;
+    width:100%;
+    min-width:960px;
+    max-width:1920px;
+}
+/*
+Body CSS rules start
+
+This section holds the CSS rules for the HTML body and may also contain general typography definitions. Although it is recomended that you do all the editing with the Flexi CSS Layouts Editor, you may change any property that is not a dimension. (Don't change things like 230px, 20% or 14em)
+*/
+.servicetecINDEX_body_design{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    text-align:left;
+    color:#000000;
+    background-color:#FFFFFF;
+    -webkit-text-size-adjust:none;
+    font-size:12px;
+    line-height:150%;
+    margin:0px;
+    padding:0px;
+}
+
+.servicetecINDEX_body_design a:link{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    color:#ff0000;
+    text-decoration:none;
+    text-align:left;
+    font-weight:normal;
+    font-size:12px;
+    line-height:150%;
+}
+
+.servicetecINDEX_body_design a:hover{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    color:#ff0000;
+    text-decoration:none;
+    text-align:left;
+    font-weight:normal;
+    font-size:12px;
+    line-height:150%;
+}
+
+.servicetecINDEX_body_design a:visited{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    color:#ff0000;
+    text-decoration:none;
+    text-align:left;
+    font-weight:normal;
+    font-size:12px;
+    line-height:150%;
+}
+
+.servicetecINDEX_body_design a:active{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    color:#ff0000;
+    text-decoration:none;
+    text-align:left;
+    font-weight:normal;
+    font-size:12px;
+    line-height:150%;
+}
+
+.servicetecINDEX_body_design p{
+    color:#333333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    text-decoration:none;
+    font-weight:normal;
+    text-align:left;
+    font-size:12px;
+    line-height:160%;
+}
+
+.servicetecINDEX_body_design h1{
+    color:#333333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    text-decoration:none;
+    font-weight:bold;
+    text-align:left;
+    font-size:16px;
+    line-height:150%;
+}
+
+.servicetecINDEX_body_design h2{
+    color:#333333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    text-decoration:none;
+    font-weight:bold;
+    text-align:left;
+    font-size:16px;
+    line-height:150%;
+}
+
+/*Body CSS rules end*/
+
+/*
+Content Boxes design CSS rules start
+
+This section holds the CSS rules for the content Boxes. The content Boxes are divs that will hold the page content (text, images etc., but not other Flexi CSS Layouts Boxes). You may also find typography rules here. If you want to check or change any CSS property you will probably find it here. Although it is recomended that you do all the editing with the Flexi CSS Layouts Editor, you may change any property that is not a dimension. (Don't change things like 230px, 20% or 14em)
+*/
+div.cssLO .servicetecINDEX_row_3_design{
+    background-color:transparent;
+    line-height:19px;
+    margin:0px;
+    padding:0px;
+    min-height:22px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:22px;
+}
+
+div.cssLO .servicetecINDEX_column_2_design{
+    background-color:transparent;
+    margin:0px;
+    padding:0px;
+    min-height:82px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:82px;
+}
+
+div.cssLO .servicetecINDEX_column_3_design{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    text-align:right;
+    color:#000000;
+    background-color:transparent;
+    font-size:14px;
+    line-height:100%;
+    margin:0px;
+    padding:0px;
+    min-height:82px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:82px;
+}
+
+.servicetecINDEX_column_3_design a:link{
+    color:#000000;
+    font-weight:bold;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:14px;
+    line-height:100%;
+}
+
+.servicetecINDEX_column_3_design a:hover{
+    color:#000000;
+    font-weight:bold;
+    font-style:normal;
+    text-decoration:underline;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:14px;
+    line-height:100%;
+}
+
+.servicetecINDEX_column_3_design a:visited{
+    font-weight:bold;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    color:#000000;
+    font-size:14px;
+    line-height:100%;
+}
+
+.servicetecINDEX_column_3_design a:active{
+    color:#000000;
+    font-weight:bold;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:14px;
+    line-height:100%;
+}
+
+div.cssLO .servicetecINDEX_column_1_design{
+    background-color:transparent;
+    z-index:900;
+    background-attachment:scroll;
+    background-repeat:no-repeat;
+    background-position:left top;
+    background-image:url('../../graphics/bg_menu.jpg');
+    margin:0px;
+    padding-top:0px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    min-height:49px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:49px;
+}
+
+.servicetecINDEX_column_1_design a:visited{
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    color:#ff0000;
+    font-size:12px;
+    line-height:150%;
+}
+
+div.cssLO .servicetecINDEX_showcase_design{
+    background-color:transparent;
+    background-attachment:scroll;
+    background-repeat:no-repeat;
+    background-position:left top;
+    background-image:url('../../graphics/slider_bg.jpg');
+    margin:0px;
+    padding-top:0px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    min-height:259px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:259px;
+}
+
+.servicetecINDEX_showcase_design a:visited{
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+div.cssLO .servicetecINDEX_row_4_design{
+    background-color:transparent;
+    margin:0px;
+    padding:0px;
+    min-height:101px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:101px;
+}
+
+div.cssLO .servicetecINDEX_row_5_design{
+    background-color:transparent;
+    margin:0px;
+    padding-top:15px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    min-height:110px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:110px;
+}
+
+.servicetecINDEX_row_5_design a:hover{
+    color:#ff0000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:underline;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+div.cssLO .servicetecINDEX_row_6_design{
+    background-color:transparent;
+    margin:0px;
+    padding:0px;
+    min-height:101px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:101px;
+}
+
+div.cssLO .servicetecINDEX_row_7_design{
+    background-color:transparent;
+    margin:0px;
+    padding-top:15px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    min-height:110px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:110px;
+}
+
+.servicetecINDEX_row_7_design a:hover{
+    color:#ff0000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:underline;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+div.cssLO .servicetecINDEX_row_8_design{
+    background-color:transparent;
+    margin:0px;
+    padding:0px;
+    min-height:101px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:101px;
+}
+
+div.cssLO .servicetecINDEX_row_9_design{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    text-align:left;
+    color:#000000;
+    background-color:transparent;
+    font-size:12px;
+    line-height:150%;
+    margin:0px;
+    padding-top:15px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    min-height:110px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:110px;
+}
+
+.servicetecINDEX_row_9_design a:hover{
+    color:#ff0000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:underline;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+div.cssLO .servicetecINDEX_column_4_design{
+    background-color:transparent;
+    margin:0px;
+    padding-top:15px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:10px;
+    min-height:34px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:34px;
+}
+
+.servicetecINDEX_column_4_design a:link{
+    color:#000000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+.servicetecINDEX_column_4_design a:hover{
+    color:#000000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:underline;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+.servicetecINDEX_column_4_design a:visited{
+    color:#000000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+.servicetecINDEX_column_4_design a:active{
+    color:#000000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+div.cssLO .servicetecINDEX_column_5_design{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    text-align:right;
+    color:#000000;
+    background-color:transparent;
+    font-size:12px;
+    line-height:150%;
+    margin:0px;
+    padding-top:15px;
+    padding-right:10px;
+    padding-bottom:0px;
+    padding-left:0px;
+    min-height:34px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:34px;
+}
+
+.servicetecINDEX_column_5_design a:link{
+    color:#000000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+.servicetecINDEX_column_5_design a:hover{
+    color:#000000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:underline;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+.servicetecINDEX_column_5_design a:visited{
+    color:#000000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+.servicetecINDEX_column_5_design a:active{
+    color:#000000;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    font-size:12px;
+    line-height:150%;
+}
+
+/*Content Boxes design CSS rules end*/
+
+/*
+Container Boxes design CSS rules start
+
+In this section are found design rules for the Boxes that are used as containers for other Boxes. Styles defined here are applied on all the container's respective children. Although it is recomended that you do all the editing with the Flexi CSS Layouts Editor, you may change any property that is not a dimension. (Don't change things like 230px, 20% or 14em)
+*/
+div.cssLO .servicetecINDEX_headertop_design{
+    background-color:transparent;
+    background-image:none;
+    margin:0px;
+    padding:0px;
+    min-height:82px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:82px;
+}
+
+div.cssLO .servicetecINDEX_row4_xtdalignwrapper_design{
+    margin:0px;
+    padding:0px;
+    min-height:82px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:82px;
+}
+
+div.cssLO .servicetecINDEX_headertop_wrapper_design{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    text-align:left;
+    color:#000000;
+    background-color:transparent;
+    font-size:12px;
+    line-height:150%;
+    margin:0px;
+    padding-top:0px;
+    padding-right:0px;
+    padding-bottom:30px;
+    padding-left:0px;
+    min-height:82px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:82px;
+}
+
+div.cssLO .servicetecINDEX_row_2_xtdalignwrapper_design{
+    background-color:transparent;
+    margin:0px;
+    padding:0px;
+    min-height:49px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:49px;
+}
+
+div.cssLO .servicetecINDEX_row_2_design{
+    background-color:transparent;
+    margin:0px;
+    padding-top:0px;
+    padding-right:0px;
+    padding-bottom:30px;
+    padding-left:0px;
+    min-height:49px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:49px;
+}
+
+div.cssLO .servicetecINDEX_row5_xtdalignwrapper_design{
+    margin:0px;
+    padding:0px;
+    min-height:261px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:261px;
+}
+
+div.cssLO .servicetecINDEX_showcase_wrapper_design{
+    background-color:transparent;
+    margin:0px;
+    padding:0px;
+    border:solid 0px #cccccc;
+    min-height:261px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:261px;
+}
+
+div.cssLO .servicetecINDEX_header_wrapper_design{
+    margin:0px;
+    padding:0px;
+    min-height:474px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:474px;
+}
+
+div.cssLO .servicetecINDEX_feature4_design{
+    background-color:transparent;
+    background-attachment:scroll;
+    background-repeat:no-repeat;
+    background-position:left top;
+    background-image:url('../../graphics/bg_prevbox_1.jpg');
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    padding-top:15px;
+    padding-right:30px;
+    padding-bottom:0px;
+    padding-left:15px;
+    border:solid 0px #cccccc;
+    min-height:226px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:226px;
+}
+
+div.cssLO .servicetecINDEX_feature5_design{
+    background-color:transparent;
+    background-attachment:scroll;
+    background-repeat:no-repeat;
+    background-position:left top;
+    background-image:url('../../graphics/bg_prevbox_2.jpg');
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    padding-top:15px;
+    padding-right:30px;
+    padding-bottom:0px;
+    padding-left:30px;
+    border:solid 0px #cccccc;
+    min-height:226px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:226px;
+}
+
+div.cssLO .servicetecINDEX_feature6_design{
+    background-color:transparent;
+    background-attachment:scroll;
+    background-repeat:no-repeat;
+    background-position:left top;
+    background-image:url('../../graphics/bg_prevbox_3.jpg');
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    padding-top:15px;
+    padding-right:15px;
+    padding-bottom:0px;
+    padding-left:30px;
+    border:solid 0px #cccccc;
+    min-height:226px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:226px;
+}
+
+div.cssLO .servicetecINDEX_bottomcontent_design{
+    background-color:transparent;
+    margin:0px;
+    padding-top:30px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    min-height:240px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:240px;
+}
+
+div.cssLO .servicetecINDEX_row7_xtdalignwrapper_design{
+    margin:0px;
+    padding:0px;
+    min-height:270px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:270px;
+}
+
+div.cssLO .servicetecINDEX_bottomcontent_wrapper_design{
+    background-color:transparent;
+    margin:0px;
+    padding-top:0px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    border-top:solid 0px #fbfbfb;
+    border-right:solid 0px #000000;
+    border-bottom:solid 0px #d7d7d7;
+    border-left:solid 0px #000000;
+    min-height:270px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:270px;
+}
+
+div.cssLO .servicetecINDEX_content_wrapper_design{
+    margin:0px;
+    padding:0px;
+    min-height:270px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:270px;
+}
+
+div.cssLO .servicetecINDEX_footer_design{
+    background-color:transparent;
+    background-attachment:scroll;
+    background-repeat:no-repeat;
+    background-position:left top;
+    background-image:url('../../graphics/bg_bot.jpg');
+    margin:0px;
+    padding-top:0px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    min-height:49px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:49px;
+}
+
+div.cssLO .servicetecINDEX_row3_xtdalignwrapper_design{
+    margin:0px;
+    padding:0px;
+    min-height:95px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:95px;
+}
+
+div.cssLO .servicetecINDEX_footer_wrapper_design{
+    background-color:transparent;
+    margin:0px;
+    padding-top:30px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    border-top:solid 0px #d7d7d7;
+    border-right:solid 0px #000000;
+    border-bottom:solid 0px #000000;
+    border-left:solid 0px #000000;
+    min-height:95px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:95px;
+}
+
+div.cssLO .servicetecINDEX_wrapper_design{
+    margin:0px;
+    padding:0px;
+    min-height:869px;/*The min-height and the two succesive height style definitions are needed to define a minimum height for IE6 because it does not recognize the min-height CSS property.*/
+    height:auto !important;
+    height:869px;
+}
+
+/*Container Boxes design CSS rules end*/
+
+/*
+Layout CSS rules start
+
+This section contains layout rules that handle the positioning and dimensions of each layout element. Please DO NOT MODIFY this by hand!
+*/
+.servicetecINDEX_wrapper_layout{
+    width:100%;
+}
+
+.servicetecINDEX_header_wrapper_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_row_3_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_headertop_wrapper_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_row4_xtdalignwrapper_layout{
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+    float:none;
+}
+
+.servicetecINDEX_headertop_layout{
+    width:960px;
+}
+
+.servicetecINDEX_column_2_layout{
+    width:600px;
+}
+
+.servicetecINDEX_column_3_layout{
+    width:360px;
+}
+
+.servicetecINDEX_row_2_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_row_2_xtdalignwrapper_layout{
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+    float:none;
+}
+
+.servicetecINDEX_column_1_layout{
+    width:960px;
+}
+
+.servicetecINDEX_showcase_wrapper_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_row5_xtdalignwrapper_layout{
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+    float:none;
+}
+
+.servicetecINDEX_showcase_layout{
+    width:960px;
+}
+
+.servicetecINDEX_content_wrapper_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_bottomcontent_wrapper_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_row7_xtdalignwrapper_layout{
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+    float:none;
+}
+
+.servicetecINDEX_bottomcontent_layout{
+    width:960px;
+}
+
+.servicetecINDEX_feature4_layout{
+    width:315px;
+}
+
+.servicetecINDEX_row_4_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_row_5_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_feature5_layout{
+    width:330px;
+}
+
+.servicetecINDEX_row_6_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_row_7_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_feature6_layout{
+    width:315px;
+}
+
+.servicetecINDEX_row_8_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_row_9_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_footer_wrapper_layout{
+    width:100%;
+    margin-right:auto;
+}
+
+.servicetecINDEX_row3_xtdalignwrapper_layout{
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+    float:none;
+}
+
+.servicetecINDEX_footer_layout{
+    width:960px;
+}
+
+.servicetecINDEX_column_4_layout{
+    width:480px;
+}
+
+.servicetecINDEX_column_5_layout{
+    width:480px;
+}.ui-dialog {
+     /* might not want to set this here, could also adjust JQueryUI's font sizing elsewhere */
+     font-size: 10px;
+ }
+.dialogForm dl {
+    clear: both;
+}
+.dialogForm dt {
+    float: left;
+}
+.dialogForm dd {
+    margin-left: 120px;
+}
+.dialogForm {
+    padding: 5px 15px;
+}
+.dialogForm legend {
+    padding-top: 10px;
+    font-size: 20px;
+}
+.dialogForm textarea {
+    width: 420px;
+    height: 70px;
+}
+.dialogForm dd input, .dialogForm dd textarea, .dialogForm dd select {
+    width: 300px;
+}
+.captcha-wrap {
+    display: table;
+}
+.captcha-row {
+    display: table-row;
+}
+.captcha-img, .captcha-input {
+    vertical-align: middle;
+    display: table-cell;
+}
+.captcha-wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.captcha-help {
+    clear: both;
+    float: left;
+}
+input[type=submit] {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+/*Layout CSS rules end*/
